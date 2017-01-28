@@ -1,6 +1,7 @@
 /*ma colonne blanche*/
 #header{
 	background-color: white;
+	border-radius: 30px;
 	padding-bottom: 30px;
 }
 
@@ -31,6 +32,7 @@
 #footer{
 	color: #88989c;
 	background-color: #ffb266;
+	border-radius: 30px;
 	margin-left: 0px;
 	margin-top: 30px;
 	padding-bottom: 20px;
@@ -38,6 +40,27 @@
 	text-align: center;
 	text-decoration: none;
 }
+
+ /*formulaire*/
+ #form{
+background-color: #fff;
+border-radius: 30px;
+margin-top: 100px;
+text-align: center;
+ }
+
+ /*bouton "envoyer"*/
+ #button{
+ 	background-color: #ffb266;
+	border-width: 0px;
+ 	border-radius: 5px;
+ 	color: #88989c;
+ 	font-weight: bold;
+ 	margin-bottom: 10px;
+ 	padding: 10px;
+ }
+
+
 
 
 /*mon bloc avec la photo et les infos*/
@@ -135,4 +158,16 @@ ul{
 	margin-bottom: 50px;
 	margin-left: 150px;
 	margin-right: 150px
+}
+
+span{
+	color: #88989c;
+}
+span:hover{
+	color: #88989c;
+	text-decoration: underline;
+}
+
+textarea{
+	padding: 50px;
 }

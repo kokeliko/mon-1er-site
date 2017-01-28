@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8" />
 	<title>La recette du couscous royal.</title>
-	<link rel="stylesheet" href="../css/reset.css">
-	<link rel="stylesheet" type="text/css" href="../css/couscous.css" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/couscous.css" />
 </head>
 	<body>
 		<div id="header">

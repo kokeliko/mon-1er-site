@@ -1,15 +1,15 @@
-<form id="form"  action="" method="post">
+    <form id="form"  action="" method="post">
      <p>
 			 <label for="">Prénom</label>
 			 <!-- si une valeur a été saisie, je la remets dans le champs-->
 			 <input
              type="text"
-              name="firstnamename"
+              name="firstname"
               value="<?=$firstname ?>"
               placeholder="Ton prénom">
 			 <!--s'il y a une erreur sur le champs je l'affiche-->
 			 <span>
-                 <?php if (isset($errors["firstnamename"]))
+                 <?php if (isset($errors["firstname"]))
                  {echo $errors["firstname"];} ?>
              </span>
 	  </p>
@@ -54,9 +54,12 @@
 	  </p>
 
 	  <p>
-			  <input type="submit" name="" value="Envoyer">
+			  <input id="button" type="submit" name="" value="Envoyer">
 	  </p>
   <!--s'il n'y a pas eu d'erreurs, il y a un message dans $confirmation-->
   <!--donc on l'affiche-->
   <?php if (!empty($confirmation)) {echo $confirmation;	} ?>
  </form>
+
+    </body>
+</html>

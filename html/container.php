@@ -2,7 +2,7 @@
 
 		<div class="blocheader1">
 			<img
-				src="../images/couscous.jpg"
+				src="images/couscous.jpg"
 				alt="photo de couscous"
 				title="Un véritable régal" />
 		</div>

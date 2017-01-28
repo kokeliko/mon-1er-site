@@ -41,7 +41,7 @@ if (!empty($_POST)) {
 			$errors["email"] = "Pour pouvoir te répondre, on va avoir besoin de ton email. On n'est pas des sauvages!";
 		}
 		// s'il n'est pas vide mais  le mail a un format invalide
-		elseif (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+		elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			$errors["email"] = "Email invalide";
 		}
 			if (empty ($message)) {
