@@ -1,0 +1,138 @@
+/*ma colonne blanche*/
+#header{
+	background-color: white;
+	padding-bottom: 30px;
+}
+
+/*Mon titre et le lien à wiki*/
+#container {
+	padding: 30px 30px;
+}
+/*Un peu de culture/lien à wiki*/
+#histoire{
+	text-align: center;
+}
+
+/*titre les ingrédients*/
+#title{
+	margin-left: 400px;
+}
+
+/*bon appétit*/
+ #title-footer{
+	color: #88989c;
+	margin-left: 0px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+/*contact*/
+#footer{
+	color: #88989c;
+	background-color: #ffb266;
+	margin-left: 0px;
+	margin-top: 30px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/*mon bloc avec la photo et les infos*/
+.blocheader1{
+	float: left;
+	margin-left: 80px;
+	margin-top: 70px;
+	padding-bottom: 100px;
+
+}
+
+/*les ingrédients*/
+.blocheader2{
+clear: both;
+}
+
+/*la préparation*/
+.blocheader3{
+	clear: both;
+	padding-left: 200px;
+}
+
+/*image de fond et position de ma colonne blanche et footer (marge)*/
+body{
+	background-attachment: fixed;
+	background-image: url(../images/vintage.jpg);
+	line-height: 40px; /*hauteur des lignes dans le txt*/
+	margin-bottom: 150px;
+	margin-left: 350px;
+	margin-top: 150px;
+	margin-right: 350px;
+}
+
+
+
+/*couleur de mon txt et taille des lettres*/
+p,li{
+	color: #88989c;
+	font-size: 20px;
+}
+
+/*mon titre: le couscous royal*/
+h1{
+	border-bottom: 5px solid #bdb9af;
+	color: #ffb266;
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 90px;
+	margin-right: 90px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-transform:uppercase;
+	text-align: center;
+}
+
+/*lien pour wiki mis en valeur*/
+a{
+	color: #ffb266;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: capitalize;
+	text-shadow: 1px 1px 4px #bdb9af;
+}
+
+/*ma photo bord rond et ombre*/
+img{
+	border-radius: 50px;
+	box-shadow: 8px 8px 10px #bdb9af;
+	display: block;
+	margin: auto;
+}
+
+/*mon tableau avec mes infos*/
+table{
+	color: #88989c;
+	font-size: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: left;
+}
+
+/*titre: ingrédients et préparation*/
+h3{
+	color: #ffb266;
+	font-size: 45px;
+	margin-left: 200px;
+	padding-bottom: 40px;
+	text-decoration: underline;
+}
+/*liste des ingrédients*/
+ul{
+	float: left;
+	list-style-type: circle;
+	margin-bottom: 50px;
+	margin-left: 150px;
+	margin-right: 150px
+}
